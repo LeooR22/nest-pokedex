@@ -36,3 +36,12 @@
 
 - MongoDB
 - Nest
+
+# Notas
+
+Heroku redeploy sin cambios:
+
+```
+git commit --alow-empty -m "Trigger heroku deploy"
+git push heroku <branch>
+```
